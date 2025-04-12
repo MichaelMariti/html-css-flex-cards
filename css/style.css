@@ -1,0 +1,38 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* TITLE */
+.title {
+    padding: 24px;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+/* CARDS */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-33 {
+    width: calc((100% - 20px) / 3)
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    height: 35%;
+}
+
+.info-card {
+
+}
