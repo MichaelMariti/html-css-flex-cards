@@ -19,6 +19,7 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .w-33 {
@@ -30,9 +31,25 @@
 }
 
 img {
-    height: 35%;
+    height: 100px;
 }
 
 .info-card {
+    background-color: #0F0E17;
+    color: white;
+    padding: 0 24px;
+}
 
+a {
+    color: #4CC5E8;
+}
+
+
+/* Test - my method */
+.blocks {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    color: white;
+    gap: 15px;
 }
