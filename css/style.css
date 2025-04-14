@@ -38,6 +38,7 @@ html {
     flex-wrap: wrap;
     gap: 15px;
     row-gap: 50px;
+    justify-content: center;
 }
 
 .w-33 {
@@ -72,4 +73,5 @@ a {
     color: white;
     gap: 15px;
     width: 30%;
+    align-items: center;
 }
